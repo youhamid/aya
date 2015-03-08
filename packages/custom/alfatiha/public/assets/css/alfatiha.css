@@ -1,0 +1,11 @@
+.alfatiha-example h1 {
+  background-color: purple
+}
+@font-face {
+    font-family: Hafs;
+    src: url(/alfatiha/assets/css/UthmanicHafs1Ver09.otf);
+}
+
+.alfatiha {
+    font-family: Hafs;
+} 

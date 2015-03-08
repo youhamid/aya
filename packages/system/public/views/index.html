@@ -1,3 +1,11 @@
-<section data-ng-controller="IndexController">
+<!--section data-ng-controller="IndexController">
   <h1 mean-token="'home-default'">This is the home view</h1>
-</section>
+</section-->
+<div class="container-fluid" data-ng-controller="MoshafController" data-ng-init="rakmSafha='1'; findOne()">
+  <div class="row hafs" ng-repeat="satr in safha.ayattesSafha.split('\n')">
+    <div class="col-md-12">
+      <P ng-bind-html="satr|rakmaya">
+      </P>
+    </div>
+  </div>
+</div>
